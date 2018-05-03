@@ -1,10 +1,10 @@
 <?php
 	require_once __DIR__ . '/../db/config.php';
 
-	if (!isset($_SESSION['userid'])) {
-		header('location: ../login.php?e=403');
-		die();
-	}
+	// if (!isset($_SESSION['userid'])) {
+	// 	header('location: ../login.php?e=403');
+	// 	die();
+	// }
 ?>
 
 <?php require_once __DIR__ . '/../template/header.php' ?>
