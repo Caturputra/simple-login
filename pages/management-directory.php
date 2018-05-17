@@ -13,9 +13,9 @@ switch ($var_option) {
 
     case 'write':
         //menulis file dengan truncate isinya terlebih dahulu
-        $file = fopen($var_directory. 'test.txt', 'w');
+        $file = fopen($var_directory. 'test.txt', 'a+');
         if ($file) {
-            fwrite($file, 'Ini contoh case writes' ."\n");
+            fwrite($file, 'daud alex daud mawud' ."\n");
         }
         fclose($file);
     break;
